@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 //
 
-const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+//const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+let carrito =[]
 
 //Armando las cards de los productos con fetch
 const pintarCards = data =>{
@@ -78,7 +79,16 @@ function agregarAlCarrito(e, arrayProductos){
     carrito.push(producto)
   }
   console.log(carrito)
+  localStorage.setItem("carrito", JSON.stringify(carrito));
 }
+
+//local storage
+function obtenerLocalStorage() {
+  const carrito = JSON.parse(localStorage.getItem("carrito"));
+  console.log(carrito);
+}
+obtenerLocalStorage();
+
 
 
 
