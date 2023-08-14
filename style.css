@@ -1,0 +1,32 @@
+.titulo{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.card:hover {
+    background-color: rgba(191, 191, 191, 0.316);
+    border-radius: 2px;
+    transition: all 0.5s;
+}
+
+.card{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.body{
+    background-color: rgba(249, 240, 228, 0.259);
+    margin: 20px;
+}
+.footer{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+.navbar{
+    font-family: 'Oswald', sans-serif;
+    font-weight:300;
+}

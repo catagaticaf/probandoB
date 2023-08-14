@@ -1,0 +1,56 @@
+[
+    {"nombre": "Silla Gervasoni", "precio": 36300,"stock": 20, "id": 1, "tipo": "silla", "img":"sillaGervasoni.webp"},
+    {"nombre": "Silla Sofía", "precio": 48400,"stock": 15, "id": 2, "tipo": "silla", "img":"sillaSofia.webp"},
+    {"nombre": "Silla Lolita", "precio": 60500,"stock": 10, "id": 3, "tipo": "silla", "img":"sillaLolitagris.webp"},
+    {"nombre": "Silla Mónaco", "precio": 54450,"stock": 12, "id": 4, "tipo": "silla", "img":"sillaMonaco.webp"},
+    {"nombre": "Silla Bamboo", "precio": 32670,"stock": 15, "id": 5, "tipo": "silla", "img":"sillaBamboo.webp"},
+    {"nombre": "Silla Paris", "precio": 84700,"stock": 10, "id": 6, "tipo": "silla", "img":"sillaParis.webp"},
+    {"nombre": "Silla Tundra", "precio": 42350,"stock": 8, "id": 7, "tipo": "silla", "img":"sillaTundra.webp"},
+    {"nombre": "Silla Mónaco Blanca", "precio": 54450,"stock": 12, "id": 8, "tipo": "silla", "img":"sillaMonacoBlanca.webp"},
+
+
+
+    {"nombre": "Mesa Canela", "precio": 847000,"stock": 5, "id": 9, "tipo": "mesa", "img":"mesaCanela.webp"},
+    {"nombre": "Mesa Oliva Zoita", "precio": 1149500,"stock": 3, "id": 10, "tipo": "mesa", "img":"mesaOlivaZoita.webp"},
+    {"nombre": "Mesa Alaska Paraiso", "precio": 665500,"stock": 6, "id": 11, "tipo": "mesa", "img":"mesaAlaskaParaiso.webp"},
+    {"nombre": "Mesa Patagonia Petiribi", "precio": 834900,"stock": 6, "id": 12, "tipo": "mesa", "img":"mesaPatagoniaPetiribi.webp"},
+    {"nombre": "Mesa Sol Mármol", "precio": 840950,"stock": 8, "id": 13, "tipo": "mesa", "img":"mesaSolMarmol.webp"},
+    {"nombre": "Mesa Manhattan", "precio": 302500,"stock": 10, "id": 14, "tipo": "mesa", "img":"mesaManhattan.webp"},
+    {"nombre": "Mesa Andes Álamo", "precio": 484000,"stock": 8, "id": 15, "tipo": "mesa", "img":"mesaAndesAlamo.webp"},
+    {"nombre": "Mesa Alma Zoita", "precio": 992200,"stock": 3, "id": 16, "tipo": "mesa", "img":"mesaAlmaZoita.webp"},
+
+
+
+    {"nombre": "Sillón Cubo", "precio": 641300,"stock": 5, "id": 17, "tipo": "sillon", "img":"sillonCubo.webp"},
+    {"nombre": "Sillón Loli L", "precio": 1210000,"stock": 3, "id": 18, "tipo": "sillon", "img":"sillonLoliL.webp"},
+    {"nombre": "Sillón London", "precio": 665500,"stock": 6, "id": 19, "tipo": "sillon", "img":"sillonLondon.webp"},
+    {"nombre": "Sillón Modular Hollywood", "precio": 726000,"stock": 6, "id": 20, "tipo": "sillon", "img":"sillonModularHollywood.webp"},
+    {"nombre": "Sillón Roma Esquinero", "precio": 484000,"stock": 8, "id": 21, "tipo": "sillon", "img":"sillonRomaEsquinero.webp"},
+    {"nombre": "Sillón Catalina", "precio": 1512500,"stock": 4, "id": 22, "tipo": "sillon", "img":"sillonCatalina.webp"},
+    {"nombre": "Sillón Oval", "precio": 968000,"stock": 8, "id": 23, "tipo": "sillon", "img":"sillonOval.webp"},
+    {"nombre": "Sillón Round", "precio": 502150,"stock": 7, "id": 24, "tipo": "sillon", "img":"sillonRound.webp"},
+
+
+    
+    {"nombre": "Espejo Ciprés Rústico", "precio": 229900,"stock": 15, "id": 25, "tipo": "deco", "img":"espejoCipresRustico.webp"},
+    {"nombre": "Espejo Organic", "precio": 26620,"stock": 17, "id": 26, "tipo": "deco", "img":"espejoOrganic.webp"},
+    {"nombre": "Bandeja Desayuno", "precio": 22990,"stock": 10, "id": 27, "tipo": "deco", "img":"bandejaDesayuno.webp"},
+    {"nombre": "Bandeja Organizadora", "precio": 22990,"stock": 12, "id": 28, "tipo": "deco", "img":"bandejaOrganizadora.webp"},
+    {"nombre": "Bandeja Claire", "precio": 18150,"stock": 15, "id": 29, "tipo": "deco", "img":"bandejaClaire.webp"},
+    {"nombre": "Porta utensilios Round", "precio": 13552,"stock": 10, "id": 30, "tipo": "deco", "img":"portaUtensiliosRound.webp"},
+    {"nombre": "Canastos Love", "precio": 18392,"stock": 8, "id": 31, "tipo": "deco", "img":"canastosLove.webp"},
+    {"nombre": "Maceta Nature", "precio": 30250,"stock": 12, "id": 32, "tipo": "deco", "img":"macetaNature.webp"},
+    {"nombre": "Cuadro Dreams", "precio": 87129,"stock": 9, "id": 33, "tipo": "deco", "img":"cuadroDreams.webp"},
+    {"nombre": "Cuadro Abstract", "precio": 193600,"stock": 3, "id": 34, "tipo": "deco", "img":"cuadroAbstract.webp"},
+    {"nombre": "Cuadro Water", "precio": 187550,"stock": 6, "id": 35, "tipo": "deco", "img":"cuadroWater.webp"},
+    {"nombre": "Hornillo Aromático", "precio": 16940,"stock": 12, "id": 36, "tipo": "deco", "img":"hornilloAromatico.webp"},
+    {"nombre": "Cuenco Petrona de Madera ", "precio": 17545,"stock": 7, "id": 37, "tipo": "deco", "img":"cuencoMaderaPetrona.webp"},
+    {"nombre": "Jarrón Cerámica", "precio": 14520,"stock": 5, "id": 38, "tipo": "deco", "img":"jarronCeramica.webp"},
+    {"nombre": "Florero Lucy", "precio": 30250,"stock": 10, "id": 39, "tipo": "deco", "img":"floreroLucy.webp"},
+    {"nombre": "Vela Aromática", "precio": 3872,"stock": 18, "id": 40, "tipo": "deco", "img":"velaAromatica.webp"},
+    {"nombre": "Vela Julieta", "precio": 9438,"stock": 14, "id": 41, "tipo": "deco", "img":"velaJulieta.webp"},
+    {"nombre": "Manta Rústica", "precio": 24200,"stock": 11, "id": 42, "tipo": "deco", "img":"mantaRustica.webp"},
+    {"nombre": "Manta Natural", "precio": 30250,"stock": 9, "id": 43, "tipo": "deco", "img":"mantaNatural.webp"},
+    {"nombre": "Adorno Cerámica Negro", "precio": 7018,"stock": 10, "id": 44, "tipo": "deco", "img":"adornoCeramicaNegro.webp"}
+
+]
