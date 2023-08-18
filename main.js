@@ -81,12 +81,25 @@ function agregarAlCarrito(e, arrayProductos){
   localStorage.setItem("carrito", JSON.stringify(carrito));
 }
 
+
+
 //local storage
 function obtenerLocalStorage() {
   const carrito = JSON.parse(localStorage.getItem("carrito"));
   console.log(carrito);
 }
 obtenerLocalStorage();
+
+const probandocarrito= document.getElementById('probandocarrito')
+carrito.forEach((producto)=>{
+  let carritoContent = document.createElement('div');
+  carritoContent.innerHTML=`
+    <img src="${producto.img}">
+    <h3>${producto.nombre}</h3>
+    <p>${producto.nombre}</p>
+  `
+  probandocarrito.append(carritoContent)
+})
 
 
 //forma 1:
@@ -113,10 +126,12 @@ pintarCarrito();
 */
 
 //forma2
+
+/*
 const pintarCarrito = carrito =>{
   let contenedorCarrito = document.getElementById("contenedor-carrito");
   carrito.forEach(producto=>{
-    let cardCarrito = document.createElement("div");
+    let cardCarrito = document.createElement("table");
     cardCarrito.innerHTML = `
     <tbody>
     <tr>
@@ -129,7 +144,7 @@ const pintarCarrito = carrito =>{
     contenedorCarrito.appendChild(cardCarrito)
   })
 }
-
+*/
 
 
 
