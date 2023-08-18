@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 //
 
-//const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 let carrito =[]
 
 //Armando las cards de los productos con fetch
@@ -90,7 +89,46 @@ function obtenerLocalStorage() {
 obtenerLocalStorage();
 
 
+//forma 1:
+//no me funciona el pintarCarrito
+/*
+function pintarCarrito(){
+  let carritoHTML = document.getElementById('contenedor-carrito')
+  carrito.forEach(producto=>{
+    let componenteCarrito = document.createElement("div")
+    componenteCarrito.innerHTML = `
+    <tbody>
+    <tr>
+      <th scope="row"></th>${producto.cantidad}</th>
+      <td>${producto.nombre}</td>
+      <td>${producto.precio}</td>
+      <td>${producto.precio * producto.cantidad}</td>
+    </tr>
+    
+    `
+    carritoHTML.appendChild(componenteCarrito);
+  })
+}
+pintarCarrito();
+*/
 
+//forma2
+const pintarCarrito = carrito =>{
+  let contenedorCarrito = document.getElementById("contenedor-carrito");
+  carrito.forEach(producto=>{
+    let cardCarrito = document.createElement("div");
+    cardCarrito.innerHTML = `
+    <tbody>
+    <tr>
+      <th scope="row">${producto.cantidad}</th>
+      <td>${producto.nombre}</td>
+      <td>${producto.precio}</td>
+      <td>${producto.precio * producto.cantidad}</td>
+    </tr>
+    `
+    contenedorCarrito.appendChild(cardCarrito)
+  })
+}
 
 
 
